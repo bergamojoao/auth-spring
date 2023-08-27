@@ -6,7 +6,7 @@ import com.example.auth.features.auth.dtos.RegisterDTO;
 import com.example.auth.features.auth.services.TokenService;
 import com.example.auth.features.user.UserRepository;
 import com.example.auth.features.user.enums.UserRole;
-import com.example.auth.features.user.models.User;
+import com.example.auth.features.user.entities.User;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
